@@ -1,6 +1,6 @@
 import React, { useRef} from 'react';
 import { Link } from 'react-router-dom';
-import { Container, Grid, Box, Button } from '@mui/material';
+import {Grid, Box, Button } from '@mui/material';
 import styled from 'styled-components';
 import Students from "../assets/uni.jpg";
 import ComputerScienceImage from '../assets/computer_science.jpg';
@@ -191,7 +191,7 @@ const scrollToContact = () => {
                 
                 <Footer ref={contactSectionRef}>
                   <div className="footer-column">
-                    <img src={logo} style={{ width: '25%',height:'50%',margin:'0%'}}/>
+                    <img src={logo} alt= " University Logo" style={{ width: '25%',height:'50%',margin:'0%'}}/>
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                     <div className="social-icons">
                         <Facebook className="icon"/>

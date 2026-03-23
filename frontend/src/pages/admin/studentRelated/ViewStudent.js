@@ -43,8 +43,8 @@ import { RedButton, BlueButton, WhiteButton } from './../../../components/button
     if (response) { console.log(response); }
     else if (error) { console.log(error); }
 
-const [name, setName] = useState('');
-const [rollNum, setRollNum] = useState('');
+// const [name, setName] = useState('');
+// const [rollNum, setRollNum] = useState('');
     const [studentSchool, setStudentSchool] = useState('');
     const [subjectMarks, setSubjectMarks] = useState('');
     const [subjectAttendance, setSubjectAttendance] = useState([]);
@@ -78,8 +78,8 @@ const [rollNum, setRollNum] = useState('');
 
     useEffect(() => {
         if (userDetails) {
-            setName(userDetails.name || '');
-            setRollNum(userDetails.roll_num || '');
+            // setName(userDetails.name || '');
+            // setRollNum(userDetails.roll_num || '');
            // setSclassName(userDetails.sclass_name || '');
             setStudentSchool(userDetails.school || '');
             setSubjectMarks(userDetails.examResult || '');
